@@ -12,7 +12,7 @@ const Footer = () => {
               target="_blank"
               href={item.link}
               key={`footer-social-key-${item.name}`}
-              className="cursor-pointer group w-fit relative outline-none"
+              className="cursor-pointer group w-fit relative outline-none" rel="noreferrer"
             >
               <div className="border-2  border-gray-300/80 group-hover:scale-y-[0.6] group-hover:border-gold-main group-hover:skew-x-[-30deg] transition-all duration-300 absolute w-full h-full top-2 group-hover:opacity-50 left-0 opacity-0"></div>
               <div className="border-2  border-gray-300/80 group-hover:scale-y-[0.6] group-hover:border-gold-main group-hover:skew-x-[-30deg] transition-all duration-300 absolute w-full h-full top-4 group-hover:opacity-20 left-0 opacity-0"></div>

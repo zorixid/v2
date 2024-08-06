@@ -49,7 +49,7 @@ export default function Select({
       onChange(selected);
     }
     setSearchIndex("");
-  }, [selected]);
+  }, [onChange, selected]);
 
   useEffect(() => {
     document.addEventListener("click", handleClickOutside);
